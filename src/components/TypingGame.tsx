@@ -637,7 +637,7 @@ const TypingGame: React.FC<Props> = ({ settings, onAdminRequest }) => {
             <div className="absolute inset-0 bg-gradient-radial from-yellow-300 via-amber-400 to-amber-500 flex items-center justify-center overflow-hidden">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-yellow-300/30 via-amber-400/20 to-amber-500/10 animate-spin-slow"></div>
 
-               ```jsx
+               
               <div className="relative z-10 flex flex-col items-center justify-center max-w-lg mx-auto px-3 text-center">
                 <h2 className="text-3xl sm:text-4xl md:text-4xl mb-4 text-white font-bold animate-bounce">
                   🎉 全ステージクリア！ 🎉

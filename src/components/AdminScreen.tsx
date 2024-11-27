@@ -206,7 +206,7 @@ const AdminScreen: React.FC<AdminScreenProps> = ({
           </div>
 
           <div>
-            <h3 className="text-xl font-semibold mb-4">落下速度調整</h3>
+            <h3 className="text-xl font-semibold mb-4">落下速度調整（1:ゆっくり 5:はやい）</h3>
             <div className="flex items-center space-x-4">
               {[1, 2, 3, 4, 5].map((value) => (
                 <button
