@@ -653,7 +653,10 @@ const TypingGame: React.FC<Props> = ({ settings, onAdminRequest }) => {
 
                 {finalScoreRef.current > previousHighScoreRef.current && (
                   <div className="relative mb-3">
-                    {saveHighScoreToStorage(score)}
+                    {(() => {
+                      saveHighScoreToStorage(score);
+                      return null;
+                    })()}
                     <p className="text-base sm:text-lg md:text-xl text-red animate-pulse">
                       🏆 ハイスコア達成！ 🏆
                     </p>
